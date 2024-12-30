@@ -68,21 +68,20 @@ Run the main detection script `main.py`:
 python main.py
 ```
 
-Replace `"YourMovieTitle"` in the `main()` function call with the name of the movie you're analyzing. The results will be saved in the `results` folder under the specified movie title.
+You have to put `"video_url"` in the `main.py` Pyhton file. The Output will be saved in the `movie_title\Keyframe` and `movie_title\results` Folder.
 
 ### 3. Outputs
+- **Extracting Key Frame**:Each Key Frame Store in the `Key_Frame` folder
 
 - **Detection Results**: Each processed frame generates a text file in the `results` folder. Each line contains:
   ```
   class_id,x_min,y_min,x_max,y_max
   ```
-- **Unified Boxes**: Bounding boxes from YOLO and DETR are merged when they detect the same object.
-
 ---
 
 ## Example Result File
 
-A result file (`frame_001_boxes.txt`) will look like:
+A result file (`img_1.txt`) will look like:
 ```
 1,50,60,200,300
 2,400,350,500,450
@@ -100,16 +99,3 @@ Here, `1` and `2` represent class IDs, followed by the bounding box coordinates.
 
 ---
 
-## Contributing
-
-Contributions to enhance the detection pipeline or integrate additional models are welcome. Fork the repository, make your changes, and submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Let me know if you'd like to include anything else in the documentation!
