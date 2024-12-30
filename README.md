@@ -3,7 +3,7 @@
 This repository provides tools for automated movie analytics by detecting and analyzing objects in keyframes extracted from movies. It utilizes both YOLO (You Only Look Once) and DETR (DEtection TRansformer) models for object detection, with a focus on combining their strengths.
 
 ---
-- [Click me to download the Movie Data Set](https://drive.google.com/drive/folders/0AKbuZk061IX9Uk9PVA)
+- [Click Me To Download The Movie Data Set](https://drive.google.com/drive/folders/0AKbuZk061IX9Uk9PVA)
 
 ## Features
 
