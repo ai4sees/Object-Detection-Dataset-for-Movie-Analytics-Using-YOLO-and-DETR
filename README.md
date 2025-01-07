@@ -109,21 +109,6 @@ Here, `1` and `2` represent class IDs, followed by the bounding box coordinates.
 ### Making Corrections in LabelImg
 
 If you need to make corrections to existing annotations in LabelImg, follow these steps:
-
-### Correction of annotations using LabelImg 
-####  Delete Extra Annotations
-![alt text](img1.png)
-#### Create Annotations
-![image](img2.png)
-#### Create Label 
-![image](img3.png)
-
-
----
-
-
-
-
 ---
 
 1. **Open Existing Annotations**:
@@ -147,7 +132,16 @@ If you need to make corrections to existing annotations in LabelImg, follow thes
    - It’s advisable to review all annotations after making corrections to ensure accuracy before finalizing your dataset.
 
 ---
+### Correction of annotations using LabelImg 
+####  Delete Extra Annotations
+![alt text](img1.png)
+#### Create Annotations
+![image](img2.png)
+#### Create Label 
+![image](img3.png)
 
+
+---
 ## Technologies Used
 
 - **YOLOv8**: Efficient object detection.
