@@ -89,6 +89,48 @@ A result file (`img_1.txt`) will look like:
 ```
 Here, `1` and `2` represent class IDs, followed by the bounding box coordinates.
 
+### 4.Human Annotation Using LabelImg
+
+**LabelImg** is a graphical image annotation tool that is widely used for creating bounding box annotations for object detection tasks. It allows users to annotate images by drawing bounding boxes around objects of interest and assigning labels to those boxes.
+
+#### Steps for Human Annotation Using LabelImg
+
+1. **Installation**:
+   - LabelImg can be installed using Python and is available on GitHub. You can install it via pip or clone the repository:
+     ```bash
+     pip install labelImg
+     ```
+   - Alternatively, you can clone the repository and run the application:
+     ```bash
+     git clone https://github.com/tzutalin/labelImg.git
+     cd labelImg
+     python labelImg
+     ```
+### Making Corrections in LabelImg
+
+If you need to make corrections to existing annotations in LabelImg, follow these steps:
+
+
+1. **Open Existing Annotations**:
+   - Load the directory containing your annotated images and their corresponding annotation files.
+
+2. **Select an Image**:
+   - Navigate to the image you want to correct using the arrow keys or by clicking on it in the file list.
+
+3. **Editing Bounding Boxes**:
+   - To edit an existing bounding box, click on it to select it. You will see handles appear at the corners of the box.
+   - Drag these handles to resize or reposition the bounding box as needed.
+   - If you need to change the label, click on the bounding box again, and a dialog will appear allowing you to edit the label.
+
+4. **Deleting Bounding Boxes**:
+   - To delete a bounding box, select it and press the `Delete` key or click on the **Delete RectBox** button.
+
+5. **Saving Changes**:
+   - After making corrections, save your changes by clicking on **Save** or pressing `Ctrl+S`.
+
+6. **Reviewing Corrections**:
+   - It’s advisable to review all annotations after making corrections to ensure accuracy before finalizing your dataset.
+
 ---
 
 ## Technologies Used
@@ -97,6 +139,7 @@ Here, `1` and `2` represent class IDs, followed by the bounding box coordinates.
 - **DETR**: Transformer-based detection for high accuracy.
 - **OpenCV**: For reading and processing frames.
 - **PyTorch Transformers**: For implementing DETR.
+- **LabelImg** : 
 
 ---
 
