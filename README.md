@@ -110,6 +110,21 @@ Here, `1` and `2` represent class IDs, followed by the bounding box coordinates.
 
 If you need to make corrections to existing annotations in LabelImg, follow these steps:
 
+### Correction of annotations using LabelImg 
+####  Delete Extra Annotations
+![alt text](img1.png)
+#### Create Annotations
+![image](img2.png)
+#### Create Label 
+![image](img3.png)
+
+
+---
+
+
+
+
+---
 
 1. **Open Existing Annotations**:
    - Load the directory containing your annotated images and their corresponding annotation files.
